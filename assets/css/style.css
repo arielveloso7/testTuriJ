@@ -1,0 +1,45 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+main {
+	max-width: 800px;
+	margin: auto;
+	padding: 40px;
+}
+
+
+.titulo{
+    text-align: center;
+}
+
+.info, h4{
+    font-weight: bold;
+}
+
+
+.btn{
+    text-transform: uppercase;
+    background-color: #EF5350;
+    color: white;
+}
+
+.input-error {
+	display: none;
+}
+
+.input-error-activo {
+	display: block;
+    color: rgba(216, 3, 3, 0.986);
+    font-size: 14px;
+}
+
+.incorrecto {
+	color: rgba(216, 3, 3, 0.986);
+    opacity: 1;
+    border: 1px solid rgba(216, 3, 3, 0.986);
+}
+
+
